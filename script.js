@@ -69,7 +69,7 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
     
     // Mock login - in a real app, this would make an API call
     console.log('Login attempt:', { email, password });
-    alert('Login functionality is mocked. In a real app, this would authenticate with a backend.');
+    alert('Login functionality is under development.');
     closeLoginModal();
 });
 
@@ -81,7 +81,7 @@ document.getElementById('registerForm').addEventListener('submit', function(e) {
     
     // Mock registration - in a real app, this would make an API call
     console.log('Registration attempt:', { name, email, password });
-    alert('Registration functionality is mocked. In a real app, this would create a new user account.');
+    alert('Registration functionality is under development.');
     closeRegisterModal();
 });
 
